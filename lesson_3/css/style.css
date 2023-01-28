@@ -1,0 +1,48 @@
+@import url(reset.css);
+
+img {
+   width: 100%;
+   height: 100%;
+}
+
+
+
+[class*="__title"] {
+   color: chartreuse;
+}
+
+.header__title {
+   color: blueviolet;
+}
+
+.header__menu a {
+   color: rgb(64, 109, 20);
+}
+
+.story__info ~ div{
+   color: blueviolet;
+}
+
+.story__info > p{
+   color: black;
+}
+
+.actors__title {}
+
+.actors__title,
+.story__title {
+   color: coral;
+}
+
+.production__title {}
+
+.production__info p+p {
+   color: blue;
+}
+
+.issue__title {}
+
+
+div {
+   color: brown;
+}
