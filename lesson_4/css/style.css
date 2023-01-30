@@ -1,0 +1,76 @@
+@import url(reset.css);
+
+
+@font-face {
+   font-family: 'Arsenal';
+   src: url('../fonts/Arsenal-Regular.woff2') format('woff2'), url('../fonts/Arsenal-Regular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Arsenal';
+   src: url('../fonts/Arsenal-Italic.woff2') format('woff2'), url('../fonts/Arsenal-Italic.woff') format('woff');
+   font-weight: 400;
+   font-style: italic;
+}
+
+
+/* =========================================================================================================== */
+
+
+img {
+   width: 100%;
+   height: 100%;
+}
+
+.img__style {
+   max-width: 600px;
+}
+
+body {
+   font-size: 18px;
+   font-weight: 400;
+   color: rgb(40, 39, 39);
+   line-height: 1.6;
+   font-family: 'Arsenal', sans-serif;
+}
+
+.header__title {
+   font-size: 32px;
+   font-weight: 700;
+   text-shadow: 5px 5px 30px rgba(29, 137, 195, 0.704);
+   text-transform: uppercase;
+}
+
+[class*=__title] {
+   font-family: 'Oswald', sans-serif;
+   color: blueviolet;
+   text-align: center;
+   letter-spacing: 2px;
+}
+
+.creativity__title,
+.info__title,
+.creativity__title {
+   font-size: 28px;
+   font-weight: 400;
+   text-transform: capitalize;
+}
+
+.info__text-inner p + p {
+   text-align: justify;
+}
+
+.footer__text {
+   font-style: italic;
+   font-size: 16px;
+   text-decoration: underline;
+   word-spacing: 10px;
+}
+.info__text-inner{
+   text-decoration: line-through;
+}
+.creativity__text-inner{
+   text-indent: 20px;
+}
