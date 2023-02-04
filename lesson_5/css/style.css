@@ -1,0 +1,90 @@
+@import url(reset.css);
+
+/*==============Reset==============*/
+
+
+
+body {
+   font-family: 'Poppins', sans-serif;
+   color: #6C757D;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 1.8;
+}
+
+img {
+   width: 100%;
+   height: 100%;
+}
+
+
+
+.container {
+   max-width: 1270px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.container__two {
+   max-width: 816px;
+   margin: 0 auto;
+}
+
+.post {
+   padding: 60px 0;
+}
+
+.post__title {
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 1.6;
+   color: #212529;
+   margin-bottom: 40px;
+}
+
+.post__text p {
+   margin-bottom: 40px;
+}
+
+[class*=post__img] {
+   margin: 80px 0;
+}
+
+.post__img-inner {
+   font-size: 0px;
+   margin-bottom: 80px;
+}
+
+.post__img-inner img {
+   max-width: 605px;
+   display: inline-block;
+}
+
+.post__img-inner img+img {
+   margin-left: 30px;
+}
+
+.post__text-bottom p{
+   margin-bottom: 0px;
+}
+
+
+
+/*=================================================*/
+
+footer{
+   padding: 80px 0;
+}
+.test__text{
+   max-width: 600px;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 18px;
+   overflow: auto;
+   max-height: 500px;
+   
+}
+
+.test__text p{
+   
+}
