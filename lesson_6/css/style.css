@@ -55,6 +55,10 @@ img {
    font-size: 0px;
 }
 
+.post__img {
+   border-radius: 5px;
+}
+
 .img__style img {
    max-width: 605px;
 }
