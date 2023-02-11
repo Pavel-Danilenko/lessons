@@ -1,0 +1,160 @@
+@import url(reset.css);
+
+/*==============Reset==============*/
+
+
+
+body {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 300;
+   font-size: 14px;
+   color: #6C757D;
+   line-height: 1.8;
+}
+
+img {
+   width: 100%;
+}
+
+
+[class*="__container"] {
+   max-width: 1270px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+[class*="__title"] {
+   max-width: 605px;
+   font-weight: 700;
+   line-height: 1.6;
+   font-size: 25px;
+   color: #212529;
+}
+
+[class*="__info-block"] {
+   max-width: 816px;
+   margin: 0 auto;
+}
+
+.post__container {
+   padding: 80PX 0;
+}
+
+.post__info-block {}
+
+.post__info-block p {
+   margin-bottom: 30px;
+}
+
+.post__title {
+   margin-bottom: 40px;
+}
+
+.post__img-inner {
+   margin: 80px 0;
+   font-size: 0px;
+}
+
+.img__style img {
+   max-width: 605px;
+}
+
+.img__style img+img {
+   margin-left: 30px;
+}
+
+
+
+.post__info-block--bootom p {
+   margin-bottom: 0px;
+}
+
+
+/*=========================================================*/
+
+
+.post-2__container {
+   padding-bottom: 80px;
+}
+
+.post-2__info-block {
+   margin-top: 100px;
+}
+
+.post-2__info-block p {
+   margin-bottom: 30px;
+}
+
+.post-2__title {
+   margin: 100px 0px;
+}
+
+.post-2__img-inner {
+   font-size: 0px;
+   margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+/*====================================*/
+
+
+.test__container {
+   padding-bottom: 80px;
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 40px 0px;
+   font-weight: 700;
+}
+
+.test__text1 {
+   background-color: rgba(255, 1, 1, 0.597);
+   opacity: 0.7;
+   border: 10px double #0088ff;
+}
+
+
+.test__text2 {
+   outline: 5px solid #212529;
+}
+
+.test__text3 {
+   visibility: hidden;
+}
+
+.test__text4 {
+   padding: 15px;
+   box-shadow: inset 10px 10px 60px 20px #0088ff;
+   box-shadow: 5px 5px 25px 0px #d81111a4, -5px -5px 50px 0px #7ed9075b;
+}
+
+.button {
+   display: inline-block;
+   margin-top: 40px;
+   padding: 20px 70px;
+   text-transform: uppercase;
+   font-size: 25px;
+   letter-spacing: 1px;
+   border: 4px solid #212529;
+   border-radius: 0 35px;
+   transition: all 0.5s;
+   /*box-shadow: 0px 10px 0px 0px #212529;*/
+   /*position: relative;
+   top: 0;*/
+}
+
+.button:hover {
+   /*box-shadow: 0px 6px 0px 0px #212529;*/
+   background-color: #212529;
+   color: rgb(255, 255, 255);
+   border-radius: 35px 0px;
+   /*top: 3px;*/
+}
