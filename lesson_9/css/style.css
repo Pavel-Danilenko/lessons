@@ -1,0 +1,60 @@
+@import url(reset.css);
+
+/*==============Reset==============*/
+
+body {
+   font-family: 'Oswald', sans-serif;
+}
+
+
+
+[class*="__container"] {
+   max-width: 1270px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+img {
+   max-width: 100%;
+}
+
+[class*="__title"] {
+   font-weight: 700;
+   font-size: 38px;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+[class*="__row"] {
+   text-align: center;
+}
+
+[class*="__row"] > * {
+   margin: 10px;
+}
+
+
+.content-img {
+   background-color: rgba(55, 127, 179, 0.649);
+   padding: 60px 0;
+
+}
+
+.content-img__row img{
+   border-radius: 20px;
+}
+
+.content-img__row img:last-child {
+   border-radius: 50%;
+}
+
+.design-img {
+   background-color: rgba(55, 179, 138, 0.566);
+   padding: 60px 0;
+}
+
+
+.icon {
+   background-color: rgba(115, 55, 179, 0.442);
+   padding: 60px 0;
+}
