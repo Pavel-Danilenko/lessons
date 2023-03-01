@@ -1,0 +1,101 @@
+@import url(reset.css);
+
+/*==============Reset==============*/
+
+body {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   color: #212529;
+}
+
+
+
+[class*="__container"] {
+   max-width: 1270px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.header {}
+
+.header__container {}
+
+.header__top {
+   padding: 37px 0;
+   color: #495057;
+}
+
+.header__top>* {
+   margin-bottom: 12px;
+}
+
+.header__top>*:last-child {
+   margin-bottom: 0px;
+}
+
+.logo__inner {
+   display: inline-block;
+}
+
+.logo__img {}
+
+.menu {}
+
+.menu__link {}
+
+.social {}
+
+.social__link {}
+
+.header__buner>* {
+   margin-bottom: 15px;
+}
+
+.header__buner>*:last-child {
+   margin-bottom: 0px;
+}
+
+.header__buner {
+   background: url(../img/blog-header-bg.webp) no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   padding: 192px 15px;
+   text-align: center;
+}
+
+.header__subtitle {
+   margin-bottom: 15px;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 1.6;
+   color: #E5E5E5;
+}
+
+.header__title {
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 1.6;
+   color: #F8F9FA;
+   max-width: 500px;
+   margin: 0 auto;
+}
+
+
+/*++++++++++++++++++++++++++++++++*/
+
+
+
+.info {
+   padding: 100px 0px;
+}
+
+.trending {
+   padding-bottom: 100px;
+}
+
+.footer{
+background: #212529;
+color: #ffff;
+padding: 100px 0px;
+}
