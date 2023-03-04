@@ -22,7 +22,6 @@ body {
 .header__container {}
 
 .header__top {
-   padding: 37px 0;
    color: #495057;
 }
 
@@ -34,29 +33,18 @@ body {
    margin-bottom: 0px;
 }
 
-.logo__inner {
-   display: inline-block;
-}
 
-.logo__img {}
 
-.menu {}
 
-.menu__link {}
-
-.social {}
-
-.social__link {}
-
-.header__buner>* {
+.blog__header-buner>* {
    margin-bottom: 15px;
 }
 
-.header__buner>*:last-child {
+.blog__header-buner>*:last-child {
    margin-bottom: 0px;
 }
 
-.header__buner {
+.blog__header-buner {
    background: url(../img/blog-header-bg.webp) no-repeat;
    background-size: cover;
    background-position: 50% 50%;
@@ -86,16 +74,8 @@ body {
 
 
 
-.info {
-   padding: 100px 0px;
-}
-
-.trending {
-   padding-bottom: 100px;
-}
 
 .footer{
 background: #212529;
 color: #ffff;
-padding: 100px 0px;
 }
