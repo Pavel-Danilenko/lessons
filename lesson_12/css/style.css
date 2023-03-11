@@ -129,9 +129,12 @@ body {
    padding-bottom: 100px;
 }
 
-.magic__container {
+.magic__container {}
+
+.magic__row {
    transform-style: preserve-3d;
    perspective: 500px;
+   display: inline-block;
 }
 
 .magic__block {
@@ -168,6 +171,6 @@ body {
 
 }
 
-.magic__container:hover .magic__block {
+.magic__row:hover .magic__block {
    transform: rotateY(-180deg);
 }
