@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Oswald:wght@400;500&family=Poppins:wght@300;500;700&family=Roboto&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   <title>lesson 16</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header></header>
+      <main class="page">
+         <div class="page__form form">
+            <div class="form__container">
+               <h1 class="form__title">Billing Details</h1>
+               <form class="form__row" action="#" method="get">
+
+                  <div class="form__column">
+
+                     <div class="form__item">
+                        <input class="form__input" required type="text" placeholder="First name*">
+                     </div>
+
+                     <div class="form__item">
+                        <input class="form__input" required type="text" placeholder="Last name*">
+                     </div>
+
+                     <div class="form__item">
+                        <input class="form__input" required minlength="5" type="text" placeholder="Address*">
+                     </div>
+
+                     <div class="form__item">
+                        <input class="form__input" type="text" placeholder="Address line 2">
+                     </div>
+
+                     <div class="form__item">
+                        <select class="form__select" name="Country*">
+                           <option value="1" disabled selected hidden>Country*</option>
+                           <option value="2">Kiev</option>
+                           <option value="3">Kharkiv</option>
+                        </select>
+                     </div>
+
+                     <div class="form__item">
+                        <input class="form__input" required type="text" placeholder="City/Town*">
+                     </div>
+
+                     <div class="form__item">
+                        <input class="form__input" required type="text" placeholder="Postcode / ZIP*">
+                     </div>
+
+                     <div class="form__item">
+                        <input class="form__input" required type="tel" placeholder="Phone*">
+                     </div>
+
+                     <div class="form__item">
+                        <input class="form__input" required type="text" placeholder="Postcode / ZIP*">
+                     </div>
+
+                     <div class="form__item">
+                        <input class="form__input" required type="tel" placeholder="Phone*">
+                     </div>
+
+                  </div>
+
+                  <div class="form__textarea textarea-body">
+                     <textarea class="textarea-body__column" autocomplete="off" name="massage"
+                        placeholder="Additional information"></textarea>
+                  </div>
+
+                  <div class="form__checkbox checkbox">
+                     <div class="checkbox__item">
+                        <input class="checkbox__input" checked id="account" type="checkbox">
+                        <label class="checkbox__label" for="account">Create Account</label>
+                     </div>
+                     <div class="checkbox__item">
+                        <input class="checkbox__input" id="address" type="checkbox">
+                        <label class="checkbox__label" for="address">Ship to a different address?</label>
+                     </div>
+                  </div>
+
+                  <h2 class="form__subtitle">Apply Coupon to get discount!</h2>
+
+                  <div class="form__bottom">
+                     <div class="form__coupon coupon">
+                        <input class="coupon__input" type="text" placeholder="Coupon code">
+                     </div>
+                     <div class="form__btn btn">
+                        <button class="btn__style" type="submit">Apply Code</button>
+                     </div>
+                  </div>
+
+               </form>
+            </div>
+         </div>
+      </main>
+      <footer></footer>
+   </div>
+</body>
+
+</html>
