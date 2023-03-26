@@ -229,3 +229,17 @@ body {
    color: rgb(246, 255, 0);
    box-shadow: #212529  0px 0px 10px 0px;
 }
+
+
+
+/*--------------------------------------------*/
+
+@media (max-width: 1024px) {
+   .info-blog__title {
+      font-size: 18px;
+   }
+}
+
+@media (max-width: 767px) {
+   
+}
